@@ -11,8 +11,8 @@ const Footer = () => {
                 <img src={logo} alt="" />
             </div>
             <div className="resources w-[300px] text-center md:text-left">
-                <h1 className='text-primary text-[20px] font-[600] mb-3'>Resourses</h1>
-                <div className="resources-items flex flex-col gap-1">
+                <h1 className='text-primary text-center text-[20px] font-[600] mb-3'>Resourses</h1>
+                <div className="resources-items flex flex-col gap-1 justify-center md:justify-start items-center w-full">
                    <Link to="/" className={`text-[14px] lg:text-[16px] capitalize py-2 font-[500] transition duration-300 hover:text-primary`}>home</Link>
                    <Link to="/HowItWork" className={`text-[14px] lg:text-[16px] capitalize py-2 font-[500] transition duration-300 hover:text-primary`}>how it works</Link>
                    <Link to="/Pricing" className={`text-[14px] lg:text-[16px] capitalize py-2 font-[500] transition duration-300 hover:text-primary`}>pricing</Link>
