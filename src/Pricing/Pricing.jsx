@@ -76,18 +76,18 @@ const Pricing = () => {
       },
   ];
   return (
-    <div className="how-it-work-container py-5">
+    <div className="pricing-container py-5">
       <div className="content max-w-[1200px] m-auto">
         <h1 className="text-[35px] mb-10 text-center sm:text-[60px] uppercase text-slate-700 font-[400]">
           pricing
         </h1>
         <div className="pricing-items flex flex-wrap items-stretch justify-center gap-4">
-           {pricing.map((p)=>(
-            <div className="pricing-item p-3 border-[1px] border-slate-200 bg-blue-50 rounded-xl w-[270px] sm:w-[320px]">
+           {pricing.map((p ,index)=>(
+            <div className="pricing-item p-3 border-[1px] border-slate-200 bg-blue-50 rounded-xl w-[270px] sm:w-[320px]" key={index}>
                 <h1 className="inline-block mb-3 rounded-full bg-primary py-1 px-3 text-[14px] sm:text-[17px] font-[500] text-slate-50">{p.name}</h1>
                 <ul className="list list-details">
-                    {p.details.map((d)=>(
-                        <li className="list-disc ms-5">{d}</li>
+                    {p.details.map((d,index)=>(
+                        <li className="list-disc ms-5" key={index}>{d}</li>
                     ))}
                 </ul>
             </div>

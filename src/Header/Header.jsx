@@ -24,7 +24,7 @@ const Header = () => {
                    <NavLink onClick={closeMenuOnMobile} to="/" className={`text-[14px] ${showMenu && 'block w-full'} lg:text-[16px] capitalize px-5 py-2 font-[500] transition duration-300 hover:text-primary`}>home</NavLink>
                    <NavLink onClick={closeMenuOnMobile} to="/HowItWork" className={`text-[14px] ${showMenu && 'block w-full'} lg:text-[16px] capitalize px-5 py-2 font-[500] transition duration-300 hover:text-primary`}>how it works</NavLink>
                    <NavLink onClick={closeMenuOnMobile} to="/Pricing" className={`text-[14px] ${showMenu && 'block w-full'} lg:text-[16px] capitalize px-5 py-2 font-[500] transition duration-300 hover:text-primary`}>pricing</NavLink>
-                   <NavLink onClick={closeMenuOnMobile} to="/Faq" className={`text-[14px] ${showMenu && 'block w-full'} lg:text-[16px] capitalize px-5 py-2 font-[500] transition duration-300 hover:text-primary`}>FAQ</NavLink>
+                   <NavLink onClick={closeMenuOnMobile} to="/FAQ" className={`text-[14px] ${showMenu && 'block w-full'} lg:text-[16px] capitalize px-5 py-2 font-[500] transition duration-300 hover:text-primary`}>FAQ</NavLink>
                    <NavLink onClick={closeMenuOnMobile} to="/Contact" className={`text-[14px] ${showMenu && 'block w-full'} lg:text-[16px] capitalize px-5 py-2 font-[500] transition duration-300 hover:text-primary`}>contact</NavLink>
                 </ul>
             </nav>
