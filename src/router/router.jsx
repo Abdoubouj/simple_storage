@@ -5,6 +5,6 @@ import Layout from "../Layout/Layout";
 export const router = createBrowserRouter([
     {path:"/",element:<Layout/>,children:[
         {path:"" , element:<Home/>},
-        {path:"*",element:<h1 className="p-5 text-red-600 font-[700]">PAGE NOT FOUND</h1>}
+        {path:"*",element:<h1 className="p-5 min-h-screen text-red-600 font-[700]">PAGE NOT FOUND</h1>}
     ]},
 ])

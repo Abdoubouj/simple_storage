@@ -29,9 +29,9 @@ const Header = () => {
                 </ul>
             </nav>
             <div className="flex gap-3 items-center">
-            <div className="reservation">
+            {/* <div className="reservation">
                 <a href="https://d0jstai1zyk.typeform.com/to/J4A5Mjbx" className='bg-primary text-[10px] sm:text-[14px] lg:text-[16px] px-6 py-3 rounded-md text-slate-50 uppercase font-[500] tracking-normal'>reserve your spot</a>
-            </div>
+            </div> */}
             <button onClick={()=>{setShowMenu(true)}} className="bar-icon cursor-pointer lg:hidden text-[40px]">
                <HiOutlineMenuAlt3/>
             </button>
